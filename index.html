@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guesы the number</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="start__game">
+        <button class="btn start__btn">Загадать число</button>
+    </div>
+
+    <div class="playing__area">
+        <h1 class="hello">Привет! Я загадал число, попробуй отгадать его</h1>
+        <p class="subtitle">Начинай гадать...</p>
+        <input type="guess" class="guess" maxlength="2">
+        <button class="btn try__btn">Угадать</button>
+        <div class="dialog">
+            <p class="more option">Больше</p>
+            <p class="bingo option">Да, именно это число</p>
+            <p class="less option">Меньше</p>
+        </div>
+        <button class="btn again__btn">Заново!</button>
+    </div>
+
+
+    <script src="./logic.js"></script>
+</body>
+</html>
